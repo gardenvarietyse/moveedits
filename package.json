@@ -1,8 +1,16 @@
 {
   "name": "moveedits",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Separate Camera Raw-edited files from untouched ones",
+  "main": "lib/index.js",
   "author": "steve (steve@gardenvariety.se)",
-  "license": "MIT"
+  "repository": "https://github.com/gardenvarietyse/moveedits.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdirp lib && uglifyjs -c -o lib/index.js -- src/index.js"
+  },
+  "devDependencies": {
+    "uglify-es": "^3.3.9",
+    "mkdirp": "^0.5.1"
+  }
 }
