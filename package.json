@@ -1,6 +1,6 @@
 {
   "name": "moveedits",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Separate Camera Raw-edited files from untouched ones",
   "main": "lib/index.js",
   "author": "steve (steve@gardenvariety.se)",
